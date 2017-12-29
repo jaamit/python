@@ -9,7 +9,6 @@ m = 22000
 s = np.random.random((n, m))
 X = np.zeros((m, n))
 
-print trs.shape
 pr = cProfile.Profile()
 pr.enable()
 
