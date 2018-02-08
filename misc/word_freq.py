@@ -1,4 +1,9 @@
 
+'''
+Setting the default_factory to int makes the defaultdict useful for counting (like a bag or multiset in other languages):
+https://docs.python.org/2/library/collections.html#collections.defaultdict
+'''
+
 from collections import defaultdict
 
 str = '''The Zen of Python, by Tim Peters
